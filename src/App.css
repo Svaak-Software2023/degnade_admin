@@ -1,0 +1,76 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --globalColor: #28243D;
+  --headingColor: #cecbd8;
+  --btnColor: #9155fd;
+  --tableColor: #413a63;
+}
+/* Table CSS */
+.fxvrKk,.mHisf, .evaFvq, .hMFeQo, .hVPalX {
+  color: white !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  background-color: #3D3759 !important;
+}
+.huezRP,.kgOwiN {
+  background-color: #413a63 !important;
+  color: #f3b8b8 !important;
+}
+.kuPCgf {
+  fill: azure !important;
+}
+.kuPCgf:disabled {
+  fill: rgb(111, 114, 114) !important;
+}
+.faZveH {
+  min-width: 40px !important;
+}
+.hZVIVT {
+  background-color: #413a63 !important;
+  border-bottom: 1px solid #505353 !important;
+  border-top: 1px solid #505353 !important;
+}
+.kgOwiN:hover {
+  color: white !important;
+  border-bottom: rgb(48, 45, 45) !important;
+  outline: rgb(48, 45, 45) !important;
+  background-color: rgb(48, 45, 45) !important;
+  transition-property: background-color !important ;
+}
+/* #3D3759 */
+/* 28243D */
+
+
+/* Table Title & Heading Background */
+.mHisf, .evaFvq{
+  background-color: #28243D !important;
+}
+
+/* Table Heading Color */
+.faZveH:hover {
+  color: lightgrey !important;
+}
+
+/* table Coloumn Color */
+.kgOwiN{
+  color: lightgray !important;
+}
+.kgOwiN:hover {
+  background-color: #28243D !important;
+}
+
+/* Sidebar Subheading Text  */
+.sidebarTextHeading{
+  font-size: 1rem;
+}
+
+/* Table Text color */
+.kgOwiN{
+  font-size: 12px !important;
+}
+.ibgBY::-webkit-scrollbar{
+  width: 5px;
+}

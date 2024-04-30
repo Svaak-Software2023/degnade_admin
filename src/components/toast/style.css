@@ -1,0 +1,65 @@
+.toast_modal_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(126, 126, 126, 0.33);
+  }
+  .toast_modal_container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 30rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    z-index: 5;
+    background-color: #28243D;
+    
+  }
+  .toast_form{
+    color: lightgray;
+  }
+  .toast_form label{
+    font-size: 12px;
+    padding: 5px 0;
+  }
+  .toast_form button{
+    width: fit-content;
+    padding: 5px 20px;
+    margin: auto;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 25px;
+  }
+  .toast_form input{
+    border-radius: 5px;
+    padding: 0 5px;
+    outline: 1px solid gray;
+    background-color: #28243D;
+  }
+  .toast_form select{
+    background-color: #28243D;
+  }
+
+  /* View Table Component*/
+
+  .viewTable_Div p{
+    width: 300px;
+    color: lightgrey;
+    display: flex ;
+    justify-content: space-between;
+  }
+
+  .viewTable_Div span{
+    width: 145px;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    text-align: justify;
+  }
